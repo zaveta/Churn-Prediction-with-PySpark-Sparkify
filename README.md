@@ -29,9 +29,9 @@ A post for this project is on [Medium](https://victorysharaf.medium.com/sparkify
 ### Results
 Performance ranking by F1:
 
-1. Random Forest has F1 score 0.819, Accuracy 0.835
-2. Gradient Boosted Trees has F1 score 0.806, Accuracy 0.824
-3. Support Vector Machine has F1 score of 0.674, Accuracy 0.773
+Random Forest has F1 score 0.857, Accuracy 0.872
+Gradient Boosted Trees has F1 score 0.850, Accuracy 0.848
+Support Vector Machine has F1 score of 0.674, Accuracy 0.773
 Baseline Model: F1 score 0.685, Accuracy 0.781
 
 ### Acknowledgements
