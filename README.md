@@ -61,7 +61,7 @@ Total training time 5.26 hours
 The best model is **Random Forest**.
 
 ### Acknowledgements
-Credit to [Udacity](udacity.com) for the data.
+Credit to [Udacity](https://www.udacity.com/) for the data.
   
 ### Licensind
 Apache License 2.0
