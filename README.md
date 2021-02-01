@@ -14,7 +14,7 @@ Applications: Spark 2.4.5, Zeppelin 0.8.2
 
 Instance type: m5.xlarge
 
-Number of instances: 3 (1 master and 2 core nodes)
+Number of instances: 5 (1 master and 4 core nodes)
 
 A post for this project is on [Medium](https://victorysharaf.medium.com/sparkify-churn-prediction-with-pyspark-on-big-data-c50157ee491c).
 
@@ -27,7 +27,7 @@ A post for this project is on [Medium](https://victorysharaf.medium.com/sparkify
   * [numpy](https://github.com/numpy/numpy)
   * [matplotlib](https://github.com/matplotlib/matplotlib)
   * [seaborn](https://github.com/mwaskom/seaborn)
-  * [PySpark](https://www.payspark.com/)
+  * [PySpark](https://spark.apache.org/docs/latest/api/python/index.html)
   
 ### Results
 ##### Baseline
@@ -57,6 +57,8 @@ Total training time: 40.5 minutes
 
 Available memory: 11171M
 Total training time 5.26 hours
+
+The best model is **Random Forest**.
 
 ### Acknowledgements
 Credit to [Udacity](udacity.com) for the data.
