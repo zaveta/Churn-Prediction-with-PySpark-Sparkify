@@ -9,8 +9,11 @@ The full Sparkify dataset is 12 GB. Due to its size, this could not be done loca
 
 #### Cluster configurations:
 Release label: emr-5.30.1
+
 Applications: Spark 2.4.5, Zeppelin 0.8.2
+
 Instance type: m5.xlarge
+
 Number of instances: 3 (1 master and 2 core nodes)
 
 A post for this project is on [Medium](https://victorysharaf.medium.com/sparkify-churn-prediction-with-pyspark-on-big-data-c50157ee491c).
@@ -27,13 +30,33 @@ A post for this project is on [Medium](https://victorysharaf.medium.com/sparkify
   * [PySpark](https://www.payspark.com/)
   
 ### Results
-Performance ranking by F1:
+##### Baseline
+Accuracy: 0.773
+F-1 Score: 0.674
+Total training time: 0.0 minutes
 
-Random Forest has F1 score 0.857, Accuracy 0.872
+##### Logistic Regression
+Accuracy: 0.778
+F-1 Score: 0.691
+Total training time: 41.2 minutes
 
-Gradient Boosted Trees has F1 score 0.850, Accuracy 0.848
+##### Random Forest
+Accuracy: 0.875
+F-1 Score: 0.861
+Total training time: 54.6 minutes
 
-Support Vector Machine has F1 score of 0.674, Accuracy 0.773
+##### Gradient Boosted Trees
+Accuracy: 0.857
+F-1 Score: 0.84
+Total training time: 133.4 minutes
+
+##### Support Vector Machine
+Accuracy: 0.773
+F-1 Score: 0.674
+Total training time: 40.5 minutes
+
+Available memory: 11171M
+Total training time 5.26 hours
 
 ### Acknowledgements
 Credit to [Udacity](udacity.com) for the data.
